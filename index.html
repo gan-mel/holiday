@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seder Rosh Hashanah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Serif+Hebrew:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the website */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3 {
+            font-family: 'Noto Serif Hebrew', serif;
+        }
+        .hebrew {
+            font-family: 'Noto Serif Hebrew', serif;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+        .english-translation {
+            font-style: italic;
+            color: #555;
+        }
+        /* Style for the sticky navigation bar */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        /* Style for active navigation link */
+        .nav-link.active {
+            color: #c026d3; /* A nice purple color for active link */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-amber-50">
+
+    <!-- Header Section -->
+    <header class="relative text-white text-center py-20 md:py-32 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1600625914932-964082438781?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10">
+            <h1 class="text-5xl md:text-7xl font-bold">סדר ראש השנה</h1>
+            <p class="text-xl md:text-2xl mt-4">A Guide to the Rosh Hashanah Seder</p>
+            <p class="mt-2 text-lg">Wishing you a Shana Tova U'Metuka – a good and sweet new year.</p>
+        </div>
+    </header>
+
+    <!-- Sticky Navigation -->
+    <nav id="navbar" class="sticky-nav shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center py-2 text-gray-700">
+                <a href="#candles" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:bg-amber-100 transition-colors">Candles</a>
+                <a href="#kiddush" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:bg-amber-100 transition-colors">Kiddush</a>
+                <a href="#hamotzi" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:bg-amber-100 transition-colors">HaMotzi</a>
+                <a href="#apple-honey" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:bg-amber-100 transition-colors">Apple & Honey</a>
+                <a href="#simanim" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:bg-amber-100 transition-colors">Simanim</a>
+                <a href="#shofar" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:bg-amber-100 transition-colors">Shofar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-4 md:p-8">
+        
+        <!-- Seder sections -->
+        <div id="seder-steps" class="space-y-8">
+            
+            <!-- 1. Candle Lighting -->
+            <section id="candles" class="bg-white p-6 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">1. הדלקת נרות – Candle Lighting</h2>
+                <div dir="rtl" class="text-right hebrew text-gray-700">
+                    בָּרוּךְ אַתָּה יְיָ אֱלֹקינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל יוֹם טוֹב.
+                </div>
+            </section>
+            
+            <!-- 2. Kiddush -->
+            <section id="kiddush" class="bg-white p-6 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">2. קידוש – Kiddush (over wine)</h2>
+                 <div dir="rtl" class="text-right hebrew text-gray-700">
+                    בָּרוּךְ אַתָּה יְיָ אֱלֹקינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הַגָּפֶן.
+                </div>
+            </section>
+            
+            <!-- 3. HaMotzi -->
+            <section id="hamotzi" class="bg-white p-6 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">3. המוציא – HaMotzi (over challah with honey)</h2>
+                <div dir="rtl" class="text-right hebrew text-gray-700">
+                     בָּרוּךְ אַתָּה יְיָ אֱלֹקינוּ מֶלֶךְ הָעוֹלָם, הַמּוֹצִיא לֶחֶם מִן הָאָרֶץ.
+                </div>
+                <p class="mt-4 text-gray-600">The challah is dipped in honey instead of salt as a sign of a sweet year.</p>
+            </section>
+
+            <!-- 4. Apple with honey -->
+            <section id="apple-honey" class="bg-white p-6 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">4. תפוח בדבש – Apple with honey</h2>
+                <div dir="rtl" class="text-right hebrew text-gray-700">
+                     בָּרוּךְ אַתָּה יְיָ אֱלֹקינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הָעֵץ.
+                </div>
+                <p class="english-translation text-right mt-2 mr-4">Blessed are You, Lord our God, King of the Universe, who creates the fruit of the tree.</p>
+                <div dir="rtl" class="text-right hebrew text-gray-700 mt-4">
+                    יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁתְּחַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה וּמְתוּקָה כַּדְּבַשׁ.
+                </div>
+                <p class="english-translation text-right mt-2 mr-4">May it be Your will, Lord our God and God of our fathers, to renew for us a good and sweet year like honey.</p>
+            </section>
+
+            <!-- 5. Simanim -->
+            <section id="simanim" class="bg-white p-6 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">5. סימנים – Symbolic Foods</h2>
+                <div class="space-y-6">
+                    <!-- Dates -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-700">תמרים – Dates</h3>
+                        <div dir="rtl" class="text-right hebrew text-gray-700 mt-1">יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁיִּתַּמּוּ אוֹיְבֵינוּ וְשׂוֹנְאֵינוּ וְכָל מְבַקְשֵׁי רָעָתֵנוּ.</div>
+                        <p class="english-translation text-right mt-1 mr-4">May it be Your will... that our enemies, haters, and those who seek our harm be finished.</p>
+                    </div>
+                    <!-- Pomegranate -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-700">רימון – Pomegranate</h3>
+                        <div dir="rtl" class="text-right hebrew text-gray-700 mt-1">יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁנִּרְבֶּה זְכֻיּוֹת כָּרִמּוֹן.</div>
+                        <p class="english-translation text-right mt-1 mr-4">May it be Your will... that we be filled with merits like a pomegranate.</p>
+                    </div>
+                    <!-- Leek -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-700">כרתי – Leek</h3>
+                        <div dir="rtl" class="text-right hebrew text-gray-700 mt-1">יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁיִּכָּרְתוּ אוֹיְבֵינוּ וְשׂוֹנְאֵינוּ וְכָל מְבַקְשֵׁי רָעָתֵנוּ.</div>
+                        <p class="english-translation text-right mt-1 mr-4">May it be Your will... that our enemies, haters, and those who seek our harm be cut off.</p>
+                    </div>
+                     <!-- Beet -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-700">סלקא – Beet or spinach</h3>
+                        <div dir="rtl" class="text-right hebrew text-gray-700 mt-1">יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁיִּסְתַּלְּקוּ אוֹיְבֵינוּ וְשׂוֹנְאֵינוּ וְכָל מְבַקְשֵׁי רָעָתֵנוּ.</div>
+                        <p class="english-translation text-right mt-1 mr-4">May it be Your will... that our enemies, haters, and those who seek our harm depart.</p>
+                    </div>
+                    <!-- Gourd -->
+                     <div>
+                        <h3 class="text-xl font-bold text-gray-700">קרא – Gourd or pumpkin</h3>
+                        <div dir="rtl" class="text-right hebrew text-gray-700 mt-1">יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁתִּקְרַע רוֹעַ גְּזַר דִּינֵנוּ וְיִקָּרְאוּ לְפָנֶיךָ זְכֻיּוֹתֵינוּ.</div>
+                        <p class="english-translation text-right mt-1 mr-4">May it be Your will... that You tear up the evil decree against us and proclaim our merits before You.</p>
+                    </div>
+                     <!-- Fish Head -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-700">ראש דג או איל – Head of a fish or ram</h3>
+                        <div dir="rtl" class="text-right hebrew text-gray-700 mt-1">יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹקינוּ וֵאלֹקֵי אֲבוֹתֵינוּ, שֶׁנִּהְיֶה לְרֹאשׁ וְלֹא לְזָנָב.</div>
+                        <p class="english-translation text-right mt-1 mr-4">May it be Your will... that we be as the head and not as the tail.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Shofar -->
+            <section id="shofar" class="bg-white p-6 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">6. שופר – Shofar</h2>
+                <p class="mb-4 text-gray-600">The mitzvah of shofar is ideally fulfilled in synagogue, but if done at home, recite the blessing:</p>
+                <div dir="rtl" class="text-right hebrew text-gray-700">
+                    בָּרוּךְ אַתָּה יְיָ אֱלֹקינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לִשְׁמוֹעַ קוֹל שׁוֹפָר.
+                </div>
+                 <h3 class="text-xl font-bold text-gray-700 mt-6 mb-2">Order of blasts (מַהֲלָךְ הַתְּקִיעוֹת):</h3>
+                 <ul class="list-disc list-inside text-gray-600 space-y-2">
+                     <li><b>Tekiah (תקיעה):</b> one long steady blast</li>
+                     <li><b>Shevarim (שברים):</b> three medium, broken sounds</li>
+                     <li><b>Teruah (תרועה):</b> nine short staccato sounds</li>
+                     <li><b>Tekiah (תקיעה):</b> again, one long steady blast</li>
+                 </ul>
+                 <p class="mt-4 text-gray-600">This cycle is repeated in various orders (commonly 30 sounds total).</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-6 mt-8">
+        <p class="text-xl">Shana Tova!</p>
+        <p>Wishing you a happy, healthy, and sweet New Year.</p>
+    </footer>
+
+    <script>
+        // JavaScript for highlighting active nav link on scroll
+        window.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navbar = document.getElementById('navbar');
+            const navbarHeight = navbar.offsetHeight;
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href').substring(1) === entry.target.id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, { rootMargin: `-${navbarHeight}px 0px 0px 0px`, threshold: 0.1 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+
+</body>
+</html>
